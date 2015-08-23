@@ -1,0 +1,11 @@
+{
+  "id": "microservice-a",
+  "cpus": 0.1,
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "network": "HOST",
+      "image": "kodraus/microservicea:1.0.0"
+    }
+  }
+}
